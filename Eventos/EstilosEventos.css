@@ -1,0 +1,110 @@
+
+    *{
+        font-family:'Bitter';
+        line-height: 1.88;
+    }
+    
+    .imgIcon {
+        width:20px;
+    }
+
+    .container-fluid img{
+        width:60px;
+        margin-right: 10px;
+    }
+
+    
+
+    .ImgBanner{
+        width: 100%;
+        height: 25em;
+        background-image:url(img/ImgBanner.jpg);
+        background-repeat: no-repeat;
+        background-position:center center;
+        background-size:cover;
+    
+        
+    
+    }
+
+.Titulo-H5{
+    text-align:center;
+    margin-top:40px;
+}
+
+.parrafo-col{
+    margin-top:30px;
+    font-size:20px;
+    text-align:justify;
+}
+
+li a{
+    margin-left: 30px;
+    color: #000 !important;
+    
+} 
+
+
+.div-separador{
+    height: 100%;
+    width: 100%;
+    background-color:#d3413f ;
+   
+}
+
+.div-separador h1 {
+    text-align: center;
+    color:#ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+    
+   
+}
+
+.div-separador h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer {
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:500px){
+
+    
+    .container-fluid .navbar-brand {
+        display:none;
+        
+    }
+
+    .parrafo-col{
+        text-align:left;
+    }
+
+    .divNosotros h2 {
+        text-align: center;
+        color: #fff;
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
+
+  
+
+  
+
+    
+
